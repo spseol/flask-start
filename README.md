@@ -1,4 +1,5 @@
 # FlaskTree
+08.10.2018 835AM
 
 Zde najdete základní adresářovou strukturu pro aplikaci ve 
 [Flasku](http://flask.pocoo.org/).
