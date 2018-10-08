@@ -6,6 +6,7 @@
 
 
 
+
 Zde najdete základní adresářovou strukturu pro aplikaci ve 
 [Flasku](http://flask.pocoo.org/).
 
