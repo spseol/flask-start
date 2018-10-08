@@ -1,4 +1,11 @@
-# FlaskTree
+# FlaskTree 8.10.2018
+
+
+
+@Nožka je Bůh. Říkám já Vogel
+
+
+
 
 Zde najdete základní adresářovou strukturu pro aplikaci ve 
 [Flasku](http://flask.pocoo.org/).
