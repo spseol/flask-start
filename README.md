@@ -40,9 +40,7 @@ pip install psycopg2 pony
 
 4. Vytvoříte si adresářovou strukturu:
 
-```bash
-make-flask-tree.sh webface
-```
+```ba
 
 5. Inicializujte si Git repositář nahrajte svou práci 
    do [nového prázdného repositáře](https://github.com/new) 
