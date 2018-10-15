@@ -7,6 +7,8 @@
 
 
 
+## Miluju 4L!
+
 Zde najdete základní adresářovou strukturu pro aplikaci ve 
 [Flasku](http://flask.pocoo.org/).
 
@@ -64,3 +66,4 @@ git commit -m "Init commit"
 git remote add origin git@github.com:GitHubNick/kokos.git
 git push -u origin master
 ```
+bla bla bla
