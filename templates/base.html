@@ -28,7 +28,7 @@
     <li><a href="{{ url_for('onas') }}">O nás</a></li>
     <li><a href="{{ url_for('abc') }}">abc</a></li>
   </ul>
-
+  
   {% block obsah %}
 
     <h1>Flask <a href="{{ url_for('index') }}">pokus</a></h1>
@@ -38,8 +38,15 @@
         {% endfor %}
     </ul>
 
-<p>Ukázková  aplikace pro web framework <a
-  href="http://flask.pocoo.org/">Flask</a>. </p>
+    {% for i in range(1,7)%}
+      <h{{ i }}>Mám prima den <strong> cislo {{ i }}</strong></h{{ i }}>
+      <p class="{{ loop.cycle('odd', 'even') }}">ajijajijaj</p>
+    {% endfor %}
+    
+    <p> {{ 2**64 }} </p>
+    
+<p>Ukázková  aplikace pro web framework 
+<a href="http://flask.pocoo.org/">Flask</a>. </p>
 
 <p>Zdrojové kódy najdete na <a
   href="http://github.com/spseol/startflask/">Githubu</a>.</p>

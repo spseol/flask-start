@@ -1,0 +1,50 @@
+[1mdiff --git a/static/styles.css b/static/styles.css[m
+[1mindex 451c195..0f092b1 100644[m
+[1m--- a/static/styles.css[m
+[1m+++ b/static/styles.css[m
+[36m@@ -32,5 +32,14 @@[m [mfooter {[m
+   width: 30%;[m
+   border: orange solid 2px;[m
+   padding: 1ex; }[m
+[32m+[m[41m  [m
+[32m+[m[32m.odd {[m
+[32m+[m[32m    background-color: orange;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.even {[m
+[32m+[m[32m    background-color: lightblue;[m
+[32m+[m[32m}[m
+[32m+[m
+ [m
+ /*# sourceMappingURL=styles.css.map */[m
+[1mdiff --git a/templates/base.html b/templates/base.html[m
+[1mindex 265cbe9..24abbec 100644[m
+[1m--- a/templates/base.html[m
+[1m+++ b/templates/base.html[m
+[36m@@ -28,7 +28,7 @@[m
+     <li><a href="{{ url_for('onas') }}">O nás</a></li>[m
+     <li><a href="{{ url_for('abc') }}">abc</a></li>[m
+   </ul>[m
+[31m-[m
+[32m+[m[41m  [m
+   {% block obsah %}[m
+ [m
+     <h1>Flask <a href="{{ url_for('index') }}">pokus</a></h1>[m
+[36m@@ -38,8 +38,15 @@[m
+         {% endfor %}[m
+     </ul>[m
+ [m
+[31m-<p>Ukázková  aplikace pro web framework <a[m
+[31m-  href="http://flask.pocoo.org/">Flask</a>. </p>[m
+[32m+[m[32m    {% for i in range(1,7)%}[m
+[32m+[m[32m      <h{{ i }}>Mám prima den <strong> cislo {{ i }}</strong></h{{ i }}>[m
+[32m+[m[32m      <p class="{{ loop.cycle('odd', 'even') }}">ajijajijaj</p>[m
+[32m+[m[32m    {% endfor %}[m
+[32m+[m[41m    [m
+[32m+[m[32m    <p> {{ 2**64 }} </p>[m
+[32m+[m[41m    [m
+[32m+[m[32m<p>Ukázková  aplikace pro web framework[m[41m [m
+[32m+[m[32m<a href="http://flask.pocoo.org/">Flask</a>. </p>[m
+ [m
+ <p>Zdrojové kódy najdete na <a[m
+   href="http://github.com/spseol/startflask/">Githubu</a>.</p>[m
