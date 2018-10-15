@@ -32,5 +32,7 @@ footer {
   width: 30%;
   border: orange solid 2px;
   padding: 1ex; }
-
+.odd{background-color:orange;}
+.even{background-color:blue;}
+  
 /*# sourceMappingURL=styles.css.map */
