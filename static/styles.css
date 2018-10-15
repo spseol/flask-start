@@ -33,4 +33,11 @@ footer {
   border: orange solid 2px;
   padding: 1ex; }
 
+.odd {
+    background-color: green; }
+
+.even {
+    background-color: yellow; }
+
+    
 /*# sourceMappingURL=styles.css.map */
