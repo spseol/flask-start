@@ -4,7 +4,7 @@ Zde najdete základní adresářovou strukturu pro aplikaci ve
 [Flasku](http://flask.pocoo.org/).
 
 0. Dejme tomu že začínám nový projekt. Bude se jmenovat třeba *Foo*.
-Můžete si [forknout](htts://help.github.com/articles/fork-a-repo/)
+Můžete si [forknout](https://help.github.com/articles/fork-a-repo/)
 nebo prostě jen 
 [naklonovat](https://help.github.com/articles/cloning-a-repository/)
 tento repositář:
