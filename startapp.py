@@ -36,6 +36,11 @@ def abc():
     return render_template("abc")
 
 
+@app.route("/form")
+def form():
+    return render_template("form.html")
+
+
 ############################################################################
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5555, debug=True)
